@@ -1,13 +1,17 @@
 import Banner from './componentes/Banner'
-import './App.module.sass'
+import styles from './App.module.sass'
+import LastProjects from 'componentes/LastProjects';
+import Contato from 'componentes/Contato';
+import Rodape from 'componentes/Rodape';
 
 function App() {
+  
   return (
     <div className="App">
-      <section>
         <Banner />
-        
-      </section>
+        <LastProjects />
+        <Contato />
+        <Rodape />
     </div>
   );
 }
