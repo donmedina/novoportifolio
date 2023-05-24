@@ -1,11 +1,11 @@
-@import '../../styles/_variaveis'
+@import 'styles/_variaveis.sass'
 
 .banner
     font-family: $fonte-texto
     display: flex
     position: relative
     justify-content: center
-    
+        
     &__imagemFundo
         position: relative
     
@@ -13,10 +13,10 @@
         position: absolute
         display: flex
         align-items: center
-        
         h2
             font-size: 52px
             margin-bottom: 0px
+            margin-top: 12px
         p
             font-size: 20px
         img
@@ -25,5 +25,14 @@
             width: 200px
             height: 200px
             margin-left: 60px
+
+    &__habilidades
+        display: flexbox
+        background-color: $cor-fundo
+        box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 10px
+        position: absolute
+        margin-top: 360px
+
 
 

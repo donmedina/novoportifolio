@@ -1,12 +1,12 @@
 import styles from './Banner.module.sass'
 import topBanner from './banner.png'
 import Links from '../Links'
-
+import Habilidades from 'componentes/Habilidades'
 
 export const Banner = () => {
     return (
+        <>
         <section className={styles.banner}>
-
             <div className={styles.banner__imagemFundo}>
                 <img src={topBanner} alt='Banner'/>
             </div>
@@ -22,7 +22,11 @@ export const Banner = () => {
                 </div>
                 <img src='https://github.com/donmedina.png' alt='Imagem de perfil'/>
             </div>
-
+            <div className={styles.banner__habilidades}>
+                <Habilidades />
+            </div>
         </section>
+
+        </>
     )
 }
