@@ -2,7 +2,7 @@ import Banner from './componentes/Banner'
 import styles from './App.module.sass'
 import LastProjects from 'componentes/LastProjects';
 import Contato from 'componentes/Contato';
-import Rodape from 'componentes/Rodape';
+
 
 function App() {
   
@@ -11,7 +11,10 @@ function App() {
         <Banner />
         <LastProjects />
         <Contato />
-        <Rodape />
+
+        <div className={styles.footer}>
+          <h4>Site de portifolio criado com React e Sass - Copyright 2023</h4>
+        </div>
     </div>
   );
 }
