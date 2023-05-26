@@ -5,14 +5,24 @@
     display: flex
     justify-content: center
     position: relative
+    @media screen and ( max-width: 768px )
+        display: block
     &__titulo
         position: absolute
+        @media screen and ( max-width: 768px )
+            display: flex
+            position: relative
+            justify-content: center
         h2
             border-bottom: 4px solid #91C500
     &__projeto
         display: flex
         flex-direction: column
         margin-top: 20px
+        @media screen and ( max-width: 768px )
+            display: flex
+            position: relative
+            margin-top: -35px
         
 
     

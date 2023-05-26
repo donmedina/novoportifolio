@@ -7,7 +7,7 @@ import Contato from 'componentes/Contato';
 function App() {
   
   return (
-    <div className="App">
+    <div className={styles.app}>
         <Banner />
         <LastProjects />
         <Contato />

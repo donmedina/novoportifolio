@@ -3,7 +3,6 @@
 .links
     display: flex
     font-size: 20px
-    
     &__git
         display: flex
         align-items: center
@@ -17,7 +16,8 @@
         background-color: #393953
         padding: 8px 24px
         border-radius: 100px
-        
+        @media screen and ( max-width: 768px )
+            padding: 8px 8px
         &:hover
             color: $cor-texto
         &:visited
