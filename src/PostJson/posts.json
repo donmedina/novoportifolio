@@ -1,0 +1,15 @@
+[
+    {
+        "id"     : 1,
+        "titulo" : "Deu erro, e agora?",
+        "link"   : "https://www.linkedin.com/pulse/deu-erro-e-agora-gabriel-medina/",
+        "capa"   : "https://media.licdn.com/dms/image/D4D12AQFGnto0iLPgsA/article-cover_image-shrink_423_752/0/1685596262478?e=1691020800&v=beta&t=ezwOn6gHWZR6VVAyK7GfuN8pr5_HLDw0IKki4edg1LU"
+    },
+    {
+        "id"     : 2,
+        "titulo" : "Esporte e o e-Sports",
+        "link"   : "https://www.linkedin.com/pulse/esporte-e-o-e-sports-gabriel-medina/",
+        "capa"   : "https://media.licdn.com/dms/image/C4D12AQHRBYbv_awlNg/article-cover_image-shrink_600_2000/0/1548893615358?e=1691020800&v=beta&t=WgKHxcwi5ef-cIO7tokqe_R9DkKvCZmItWMrqDLO5UI"
+
+    }
+]
