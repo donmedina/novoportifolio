@@ -12,17 +12,22 @@ function App() {
   return (
     <div className={styles.app}>
       <BrowserRouter>
+
         <NavBar />
+
         <Routes>
           <Route path="/" element={<DefaultPage />}>
             <Route index element={<Inicio />}></Route>
+            <Route path="posts" element={<Posts />} />
           </Route>
-          <Route path="posts" element={<Posts />} />
           <Route path="*" element={<NotFound />} />
+
         </Routes>
+
         <div className={styles.footer}>
           <h4>Site de portifolio criado com React e Sass - Copyright 2023</h4>
         </div>
+
       </BrowserRouter>
     </div>
   );

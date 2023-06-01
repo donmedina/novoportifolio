@@ -7,7 +7,7 @@ export const MenuLink = ({ children, to }) => {
         <Link
             className={`
             ${styles.link} 
-            ${loc.pathname === to ? styles.linkDestaque : ""}`}
+            ${loc.pathname === to ? styles.link__Destaque : ""}`}
             to={to}> {children} </Link>
     )
 }
